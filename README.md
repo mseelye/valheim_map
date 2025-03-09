@@ -1,6 +1,6 @@
 # ValheimTileToImage v1.0.0
 Mark Seelye - mseelye@yahoo.com  
-This is a tool for converting exported Valheim map data to png maps locally.
+This is a tool for converting exported Valheim map data to (HUGE 16384x16384) png maps locally.
 Map data can be exported from the (great) online Valheim map tool at https://valheim-map.world/
 
 ## Data
@@ -152,10 +152,27 @@ Do any usual golang dance you need to install modules (`go mod tidy` etc.) and t
 go build .
 ```
 
+## Roadmap, Ideas, Future Featues
+
+I'm only working on this when I have time, which I don't have much of. So I'll add features as I need them as I can.  
+
+That said, some things I plan to implement at some point:  
+- Better config, containing other generation options, biome coloring, height parameters, forest parameters, water coloring and parameters, program arguments/flags, other things that are currently hard-coded.
+- Other file formats.
+- Other resolutions, currently only supports 16384x16384.
+- Scanning "ImportantContents" in the location data. Allowing for better/more plot possibilities.
+- Options to out only map with icons, or only map without icons.
+- Plot categories and filtering capabilities
+
+## Known Bugs
+
+Probably more unknown bugs than known bugs.  
+No warranty provided, your mileage may vary.  
+Not responsible for any pain and/or suffering.  
+May cause headaches, limping, sneezing, or sniffling.  
+Enjoy at your own risk.
+
 ## Thanks
 
 Big thanks to https://valheim-map.world/ for providing the excellent export feature and code samples.  
 Huge thanks also to https://game-icons.net/ for providing awesome free, high-quality icons!
-
-
-
