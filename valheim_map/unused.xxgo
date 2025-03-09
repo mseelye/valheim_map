@@ -1,0 +1,99 @@
+// var colorBosses = &Red
+// var colorTraders = &color.RGBA{52, 152, 219, 255}
+// var colorQuests = &Yellow
+// var colorDungeons = &color.RGBA{127, 50, 168, 255}
+// var colorBurrow = &Green
+// var colorSpawner = &color.RGBA{175, 96, 26, 255}
+// var colorHostile = &color.RGBA{247, 47, 174, 255}
+// var colorDvergrCamps = &color.RGBA{195, 155, 211, 255}
+// var colorSmallCamps = &color.RGBA{211, 84, 0, 255}
+// var colorMaterial = &color.RGBA{241, 196, 15, 255}
+// var colorMisc = &color.RGBA{41, 128, 85, 255}
+
+// var Plots = []Plot{
+// 	// Spawn
+// 	NewPlot("StartTemple", "impact-point.png", "White", "Gold", "Spawn"),
+// 	// Bosses
+// 	NewPlot("Eikthyrnir", "viking-helmet.png", "colorBosses", "White", "Eikthyr"),
+// 	NewPlot("GDKing", "viking-helmet.png", "colorBosses", "White", "Elder"),
+// 	NewPlot("Bonemass", "viking-helmet.png", "colorBosses", "White", "Bonemass"),
+// 	NewPlot("Dragonqueen", "viking-helmet.png", "colorBosses", "White", "Moder"),
+// 	NewPlot("GoblinKing", "viking-helmet.png", "colorBosses", "White", "Yagluth"),
+// 	NewPlot("Mistlands_DvergrBossEntrance1", "viking-helmet.png", "colorBosses", "White", "Queen"),
+// 	NewPlot("FaderLocation", "viking-helmet.png", "colorBosses", "White", "Fader"),
+// 	// Traders
+// 	NewPlot("Vendor_BlackForest", "cash.png", "colorTraders", "Green", "Haldor"),
+// 	NewPlot("Hildir_camp", "sewing-string.png", "colorTraders", "Green", "Hildur"),
+// 	NewPlot("BogWitch_Camp", "pointy-hat.png", "colorTraders", "Green", "Bog Witch"),
+// 	// Quests
+// 	NewPlot("Hildir_cave", "jeweled-chalice.png", "colorQuests", "colorTraders", "Quest: Cave"),
+// 	NewPlot("Hildir_crypt", "jeweled-chalice.png", "colorQuests", "colorTraders", "Quest: Crypt"),
+// 	NewPlot("Hildir_plainsfortress", "jeweled-chalice.png", "colorQuests", "colorTraders", "Quest: Fortress"),
+// 	NewPlot("PlaceofMystery", "shard-sword-w.png", "colorQuests", "colorTraders", "Quest: Dyrnwyn"),
+// 	// Dungeons
+// 	NewPlot("Crypt", "crypt-entrance.png", "colorDungeons", "", ""),
+// 	NewPlot("SunkenCrypt", "dungeon-gate.png", "colorDungeons", "", ""),
+// 	NewPlot("MountainCave", "cave-entrance.png", "colorDungeons", "", ""),
+// 	NewPlot("Mistlands_DvergrTownEntrance", "tick.png", "colorDungeons", "", ""),
+// 	// Burrows
+// 	NewPlot("MorgenHole", "dinosaur-bones.png", "colorBurrow", "", ""),
+// 	NewPlot("TrollCave", "ogre.png", "colorBurrow", "", ""),
+// 	// Spawners
+// 	NewPlot("Greydwarf_camp", "tree-roots-vf.png", "colorSpawner", "", ""),
+// 	NewPlot("FireHole", "fire.png", "colorSpawner", "", ""),
+// 	NewPlot("TarPit", "gooey-daemon.png", "colorSpawner", "", ""),
+// 	NewPlot("Grave", "raise-skeleton.png", "colorSpawner", "", ""),
+// 	NewPlot("Grave", "half-body-crawling.png", "colorSpawner", "", ""),
+// 	NewPlot("CharredStone_Spawner", "death-skull.png", "colorSpawner", "", ""),
+// 	// Hostile Settlements
+// 	NewPlot("GoblinCamp", "goblin-camp.png", "colorHostile", "Gold", ""),
+// 	NewPlot("StoneTower1", "tusks-flag.png", "colorHostile", "", ""),
+// 	NewPlot("StoneTower3", "tusks-flag.png", "colorHostile", "", ""),
+// 	NewPlot("CharredFortress", "castle.png", "colorHostile", "White", ""),
+// 	// Dvergr Camps
+// 	NewPlot("Mistlands_Harbour", "drakkar.png", "colorDvergrCamps", "", ""),
+// 	NewPlot("Mistlands_Excavation", "mining.png", "colorDvergrCamps", "", ""),
+// 	NewPlot("Mistlands_Lighthouse", "lighthouse.png", "colorDvergrCamps", "", ""),
+// 	NewPlot("Mistlands_GuardTower", "stone-tower.png", "colorDvergrCamps", "", ""),
+// 	NewPlot("CharredTowerRuins1_dvergr", "stone-tower.png", "colorDvergrCamps", "", ""),
+// 	// Small Camps
+// 	NewPlot("Ruin1", "tower-fall.png", "colorSmallCamps", "", ""),
+// 	NewPlot("Ruin2", "tower-fall.png", "colorSmallCamps", "", ""),
+// 	NewPlot("SwampRuin", "tower-fall.png", "colorSmallCamps", "", ""),
+// 	NewPlot("StoneTowerRuins", "tower-fall.png", "colorSmallCamps", "", ""),
+// 	NewPlot("AbandonedLogCabin02", "wood-cabin.png", "colorSmallCamps", "", ""),
+// 	NewPlot("DrakeNest", "nest-eggs.png", "colorSmallCamps", "", ""),
+// 	NewPlot("Mistlands_DvergrTownEntrance", "castle-ruins.png", "colorSmallCamps", "", ""),
+// 	NewPlot("Mistlands_GuardTower1_ruined_new", "castle-ruins.png", "colorSmallCamps", "", ""),
+// 	NewPlot("Mistlands_GuardTower3_ruined_new", "castle-ruins.png", "colorSmallCamps", "", ""),
+// 	NewPlot("VoltureNest", "bird-claw.png", "colorSmallCamps", "", ""),
+// 	// Material - TODO: Ex: item["RandomContents].."Name" == Behive
+// 	// PlotLocations(mapDescriptor, bmpmap, locationsData, "TODO Beehive", "todo", "colorMaterial", "", "")
+// 	NewPlot("InfestedTree01", "trunk-mushroom.png", "colorMaterial", "", ""),
+// 	NewPlot("TarPit", "gooey-daemon.png", "colorMaterial", "", ""),
+// 	NewPlot("Mistlands_Giant1", "broken-skull.png", "colorMaterial", "", ""),
+// 	NewPlot("Mistlands_Giant2", "ribcage.png", "colorMaterial", "", ""),
+// 	NewPlot("Mistlands_Swords", "sword-spade.png", "colorMaterial", "", ""),
+// 	NewPlot("SulfurArch", "stone-pile.png", "colorMaterial", "", ""),
+// 	NewPlot("LeviathanLava", "ore.png", "colorMaterial", "", ""),
+// 	NewPlot("CharredRuins", "grapes.png", "colorMaterial", "", ""),
+// 	// Boss Items - TODO, need to scan Contents
+// 	// Color colorBossItems = Color.FromArgb(4, 130, 67);
+// 	// Ancient Seeds
+// 	// Dragon Eggs
+// 	// Totems
+// 	// Sealbreaker Pieces
+// 	// Bell Fragments
+// 	// Rare Locations
+// 	// colorRare = &color.RGBA{22, 160, 133, 255}
+// 	//NewPlot("piece_maypole ??", "oak-leaf.png", colorRare),; // TODO - Check PF name
+// 	//NewPlot("Fish4_cave ??", "fishing-lure.png", colorRare),; // TODO - Check Contents?
+// 	//NewPlot("WoodVillage :: Draugr", "village.png", colorRare),; // TODO - Check PF name
+// 	// Misc
+// 	NewPlot("ShipWreck", "wood-canoe.png", "colorMisc", "", ""),
+// 	//":: Treasure?", "open-chest.png", "colorMisc", "", "")
+// 	// Leviathan ?? NFI
+// 	// Special Misc
+// 	NewPlot("Mistlands_Viaduct2", "aqueduct.png", "Darkgrey", "Lime", ""),
+// 	NewPlot("Mistlands_Viaduct1", "aqueduct.png", "Darkgrey", "Gold", ""),
+// }

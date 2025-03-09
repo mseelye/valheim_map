@@ -1,0 +1,340 @@
+{
+  "colors": {
+    "White": "#ffffffff",
+    "Red": "#ff0000ff",
+    "Yellow": "#ffff00ff",
+    "Green": "#008000ff",
+    "colorBosses": "Red",
+    "colorTraders": "#3498dbff",
+    "colorQuests": "Yellow",
+    "colorDungeons": "#7f32a8ff",
+    "colorBurrow": "Green",
+    "colorSpawner": "#af601aff",
+    "colorHostile": "#f72faeff",
+    "colorDvergrCamps": "#c39bd3ff",
+    "colorSmallCamps": "#d35400ff",
+    "colorMaterial": "#f1c40fff",
+    "colorMisc": "#298055ff"
+  },
+  "plots": [
+    {
+      "PrefabName": "StartTemple",
+      "IconPng": "impact-point.png",
+      "IconColor": "White",
+      "HighlightColor": "Gold",
+      "Text": "Spawn"
+    },
+    {
+      "PrefabName": "Eikthyrnir",
+      "IconPng": "viking-helmet.png",
+      "IconColor": "colorBosses",
+      "HighlightColor": "White",
+      "Text": "Eikthyr"
+    },
+    {
+      "PrefabName": "GDKing",
+      "IconPng": "viking-helmet.png",
+      "IconColor": "colorBosses",
+      "HighlightColor": "White",
+      "Text": "Elder"
+    },
+    {
+      "PrefabName": "Bonemass",
+      "IconPng": "viking-helmet.png",
+      "IconColor": "colorBosses",
+      "HighlightColor": "White",
+      "Text": "Bonemass"
+    },
+    {
+      "PrefabName": "Dragonqueen",
+      "IconPng": "viking-helmet.png",
+      "IconColor": "colorBosses",
+      "HighlightColor": "White",
+      "Text": "Moder"
+    },
+    {
+      "PrefabName": "GoblinKing",
+      "IconPng": "viking-helmet.png",
+      "IconColor": "colorBosses",
+      "HighlightColor": "White",
+      "Text": "Yagluth"
+    },
+    {
+      "PrefabName": "Mistlands_DvergrBossEntrance1",
+      "IconPng": "viking-helmet.png",
+      "IconColor": "colorBosses",
+      "HighlightColor": "White",
+      "Text": "Queen"
+    },
+    {
+      "PrefabName": "FaderLocation",
+      "IconPng": "viking-helmet.png",
+      "IconColor": "colorBosses",
+      "HighlightColor": "White",
+      "Text": "Fader"
+    },
+    {
+      "PrefabName": "Vendor_BlackForest",
+      "IconPng": "cash.png",
+      "IconColor": "colorTraders",
+      "HighlightColor": "Green",
+      "Text": "Haldor"
+    },
+    {
+      "PrefabName": "Hildir_camp",
+      "IconPng": "sewing-string.png",
+      "IconColor": "colorTraders",
+      "HighlightColor": "Green",
+      "Text": "Hildur"
+    },
+    {
+      "PrefabName": "BogWitch_Camp",
+      "IconPng": "pointy-hat.png",
+      "IconColor": "colorTraders",
+      "HighlightColor": "Green",
+      "Text": "Bog Witch"
+    },
+    {
+      "PrefabName": "Hildir_cave",
+      "IconPng": "jeweled-chalice.png",
+      "IconColor": "colorQuests",
+      "HighlightColor": "colorTraders",
+      "Text": "Quest: Cave"
+    },
+    {
+      "PrefabName": "Hildir_crypt",
+      "IconPng": "jeweled-chalice.png",
+      "IconColor": "colorQuests",
+      "HighlightColor": "colorTraders",
+      "Text": "Quest: Crypt"
+    },
+    {
+      "PrefabName": "Hildir_plainsfortress",
+      "IconPng": "jeweled-chalice.png",
+      "IconColor": "colorQuests",
+      "HighlightColor": "colorTraders",
+      "Text": "Quest: Fortress"
+    },
+    {
+      "PrefabName": "PlaceofMystery",
+      "IconPng": "shard-sword.png",
+      "IconColor": "colorQuests",
+      "HighlightColor": "colorTraders",
+      "Text": "Quest: Dyrnwyn"
+    },
+    {
+      "PrefabName": "Crypt",
+      "IconPng": "crypt-entrance.png",
+      "IconColor": "colorDungeons"
+    },
+    {
+      "PrefabName": "SunkenCrypt",
+      "IconPng": "dungeon-gate.png",
+      "IconColor": "colorDungeons"
+    },
+    {
+      "PrefabName": "MountainCave",
+      "IconPng": "cave-entrance.png",
+      "IconColor": "colorDungeons"
+    },
+    {
+      "PrefabName": "Mistlands_DvergrTownEntrance",
+      "IconPng": "tick.png",
+      "IconColor": "colorDungeons"
+    },
+    {
+      "PrefabName": "MorgenHole",
+      "IconPng": "dinosaur-bones.png",
+      "IconColor": "colorBurrow"
+    },
+    {
+      "PrefabName": "TrollCave",
+      "IconPng": "ogre.png",
+      "IconColor": "colorBurrow"
+    },
+    {
+      "PrefabName": "Greydwarf_camp",
+      "IconPng": "tree-roots-vf.png",
+      "IconColor": "colorSpawner"
+    },
+    {
+      "PrefabName": "FireHole",
+      "IconPng": "fire.png",
+      "IconColor": "colorSpawner"
+    },
+    {
+      "PrefabName": "TarPit",
+      "IconPng": "gooey-daemon.png",
+      "IconColor": "colorSpawner"
+    },
+    {
+      "PrefabName": "Grave",
+      "IconPng": "raise-skeleton.png",
+      "IconColor": "colorSpawner"
+    },
+    {
+      "PrefabName": "Grave",
+      "IconPng": "half-body-crawling.png",
+      "IconColor": "colorSpawner"
+    },
+    {
+      "PrefabName": "CharredStone_Spawner",
+      "IconPng": "death-skull.png",
+      "IconColor": "colorSpawner"
+    },
+    {
+      "PrefabName": "GoblinCamp",
+      "IconPng": "goblin-camp.png",
+      "IconColor": "colorHostile",
+      "HighlightColor": "Gold"
+    },
+    {
+      "PrefabName": "StoneTower1",
+      "IconPng": "tusks-flag.png",
+      "IconColor": "colorHostile"
+    },
+    {
+      "PrefabName": "StoneTower3",
+      "IconPng": "tusks-flag.png",
+      "IconColor": "colorHostile"
+    },
+    {
+      "PrefabName": "CharredFortress",
+      "IconPng": "castle.png",
+      "IconColor": "colorHostile",
+      "HighlightColor": "White"
+    },
+    {
+      "PrefabName": "Mistlands_Harbour",
+      "IconPng": "drakkar.png",
+      "IconColor": "colorDvergrCamps"
+    },
+    {
+      "PrefabName": "Mistlands_Excavation",
+      "IconPng": "mining.png",
+      "IconColor": "colorDvergrCamps"
+    },
+    {
+      "PrefabName": "Mistlands_Lighthouse",
+      "IconPng": "lighthouse.png",
+      "IconColor": "colorDvergrCamps"
+    },
+    {
+      "PrefabName": "Mistlands_GuardTower",
+      "IconPng": "stone-tower.png",
+      "IconColor": "colorDvergrCamps"
+    },
+    {
+      "PrefabName": "CharredTowerRuins1_dvergr",
+      "IconPng": "stone-tower.png",
+      "IconColor": "colorDvergrCamps"
+    },
+    {
+      "PrefabName": "Ruin1",
+      "IconPng": "tower-fall.png",
+      "IconColor": "colorSmallCamps"
+    },
+    {
+      "PrefabName": "Ruin2",
+      "IconPng": "tower-fall.png",
+      "IconColor": "colorSmallCamps"
+    },
+    {
+      "PrefabName": "SwampRuin",
+      "IconPng": "tower-fall.png",
+      "IconColor": "colorSmallCamps"
+    },
+    {
+      "PrefabName": "StoneTowerRuins",
+      "IconPng": "tower-fall.png",
+      "IconColor": "colorSmallCamps"
+    },
+    {
+      "PrefabName": "AbandonedLogCabin02",
+      "IconPng": "wood-cabin.png",
+      "IconColor": "colorSmallCamps"
+    },
+    {
+      "PrefabName": "DrakeNest",
+      "IconPng": "nest-eggs.png",
+      "IconColor": "colorSmallCamps"
+    },
+    {
+      "PrefabName": "Mistlands_DvergrTownEntrance",
+      "IconPng": "castle-ruins.png",
+      "IconColor": "colorSmallCamps"
+    },
+    {
+      "PrefabName": "Mistlands_GuardTower1_ruined_new",
+      "IconPng": "castle-ruins.png",
+      "IconColor": "colorSmallCamps"
+    },
+    {
+      "PrefabName": "Mistlands_GuardTower3_ruined_new",
+      "IconPng": "castle-ruins.png",
+      "IconColor": "colorSmallCamps"
+    },
+    {
+      "PrefabName": "VoltureNest",
+      "IconPng": "bird-claw.png",
+      "IconColor": "colorSmallCamps"
+    },
+    {
+      "PrefabName": "InfestedTree01",
+      "IconPng": "trunk-mushroom.png",
+      "IconColor": "colorMaterial"
+    },
+    {
+      "PrefabName": "TarPit",
+      "IconPng": "gooey-daemon.png",
+      "IconColor": "colorMaterial"
+    },
+    {
+      "PrefabName": "Mistlands_Giant1",
+      "IconPng": "broken-skull.png",
+      "IconColor": "colorMaterial"
+    },
+    {
+      "PrefabName": "Mistlands_Giant2",
+      "IconPng": "ribcage.png",
+      "IconColor": "colorMaterial"
+    },
+    {
+      "PrefabName": "Mistlands_Swords",
+      "IconPng": "sword-spade.png",
+      "IconColor": "colorMaterial"
+    },
+    {
+      "PrefabName": "SulfurArch",
+      "IconPng": "stone-pile.png",
+      "IconColor": "colorMaterial"
+    },
+    {
+      "PrefabName": "LeviathanLava",
+      "IconPng": "ore.png",
+      "IconColor": "colorMaterial"
+    },
+    {
+      "PrefabName": "CharredRuins",
+      "IconPng": "grapes.png",
+      "IconColor": "colorMaterial"
+    },
+    {
+      "PrefabName": "ShipWreck",
+      "IconPng": "wood-canoe.png",
+      "IconColor": "colorMisc"
+    },
+    {
+      "PrefabName": "Mistlands_Viaduct2",
+      "IconPng": "aqueduct.png",
+      "IconColor": "Darkgrey",
+      "HighlightColor": "Lime"
+    },
+    {
+      "PrefabName": "Mistlands_Viaduct1",
+      "IconPng": "aqueduct.png",
+      "IconColor": "Darkgrey",
+      "HighlightColor": "Gold"
+    }
+  ]
+}
