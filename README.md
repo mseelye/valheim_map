@@ -55,6 +55,15 @@ With the compiled executable:
 With go:
 `go run . c:\Users\You\Downloads\MapData_myawesomeseed\data`
 
+
+## Example Output
+
+Empty map without icons:  
+![Map](examples/mapGO.png)  
+
+Map with default plot locations, icons, and colors:  
+![Map](examples/map-with-iconsGO.png)  
+
 ## Config
 
 You can output a default config file and modify it to configure whatshould be marked on the map.
