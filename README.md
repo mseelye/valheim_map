@@ -3,6 +3,9 @@ Mark Seelye - mseelye@yahoo.com
 This is a tool for converting exported Valheim map data to (HUGE 16384x16384) png maps locally.
 Map data can be exported from the (great) online Valheim map tool at https://valheim-map.world/
 
+## Build Status
+[![Go](https://github.com/mseelye/valheim_map/actions/workflows/go.yml/badge.svg)](https://github.com/mseelye/valheim_map/actions/workflows/go.yml)
+
 ## Data
 
 You either specify the path to the /data directory for the exported data, or run the tool from the data directory.  
